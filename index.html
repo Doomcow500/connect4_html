@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <title>Connect 4!</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="connect4.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+  <div class="container" align="center">
+
+    <h1>Welcome to Connect 4!</h1>
+    <h3></h3>
+
+    <form class="form-horizontal">
+      <div class="form-group">
+        <div class="col-sm-12">
+          <button id="btnStart" class="btn btn-warning"> New Game </button>
+        </div>
+      </div>
+    </form>
+
+    <table class="players">
+      <tr>
+        <td><button type="button"></button></td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td><button type="button"></button></td>
+      </tr>
+    </table>
+
+    <!-- Game board : 7 cols * 6 rows -->
+
+    <table class="board">
+      <tr>
+        <td><button type="button"></button></td>
+        <td><button type="button"></button></td>
+        <td><button type="button"></button></td>
+        <td><button type="button"></button></td>
+        <td><button type="button"></button></td>
+        <td><button type="button"></button></td>
+        <td><button type="button"></button></td>
+      </tr>
+      <tr>
+        <td><button type="button"></button></td>
+        <td><button type="button"></button></td>
+        <td><button type="button"></button></td>
+        <td><button type="button"></button></td>
+        <td><button type="button"></button></td>
+        <td><button type="button"></button></td>
+        <td><button type="button"></button></td>
+      </tr>
+      <tr>
+        <td><button type="button"></button></td>
+        <td><button type="button"></button></td>
+        <td><button type="button"></button></td>
+        <td><button type="button"></button></td>
+        <td><button type="button"></button></td>
+        <td><button type="button"></button></td>
+        <td><button type="button"></button></td>
+      </tr>
+      <tr>
+        <td><button type="button"></button></td>
+        <td><button type="button"></button></td>
+        <td><button type="button"></button></td>
+        <td><button type="button"></button></td>
+        <td><button type="button"></button></td>
+        <td><button type="button"></button></td>
+        <td><button type="button"></button></td>
+      </tr>
+      <tr>
+        <td><button type="button"></button></td>
+        <td><button type="button"></button></td>
+        <td><button type="button"></button></td>
+        <td><button type="button"></button></td>
+        <td><button type="button"></button></td>
+        <td><button type="button"></button></td>
+        <td><button type="button"></button></td>
+      </tr>
+      <tr>
+        <td><button type="button"></button></td>
+        <td><button type="button"></button></td>
+        <td><button type="button"></button></td>
+        <td><button type="button"></button></td>
+        <td><button type="button"></button></td>
+        <td><button type="button"></button></td>
+        <td><button type="button"></button></td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- script to link jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- javascript for game control-->
+  <script src='connect4.js'></script>
+
+</body>
+
+</html>

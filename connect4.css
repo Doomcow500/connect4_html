@@ -1,0 +1,31 @@
+body {
+  background-color: #111111;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.board button, .players button{
+    width: 70px;
+    height: 70px;
+    margin: 7.5px;
+    background-color: rgb(189, 189, 189);
+    border-radius: 50%;
+    border: 2px solid black;
+  }
+  
+  h1{
+    color: orange;
+  
+  }
+  
+  h4{
+    color: orange;
+  
+  }
+  html, body {
+    width: 100%;
+    height:100%;
+    font-family: monospace;
+  }
+  
+  
