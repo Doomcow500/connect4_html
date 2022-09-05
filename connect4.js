@@ -195,6 +195,8 @@ $(".board button").on("click", function() {
 
   var rowAvail = checkPosition(col);
 
+  if (rowAvail === undefined) return; // reject input if column is full
+
   // change color
   changeChipColor(rowAvail, col, gameColor);
 
